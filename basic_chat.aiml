@@ -1,0 +1,96 @@
+<aiml version="1.0">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hi!
+        </template>
+    </category>
+
+     <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            Hello, Boss!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JARVIS</pattern>
+        <template>
+            <random>
+                <li>Welcome home sir!</li> 
+                <li>Always a pleasure working with you sir!</li> 
+                <li>Nice to see you sir!</li> 
+                <li>What would you like me to do sir?</li> 
+                <li>Your will is my command!</li> 
+            </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+            I'm JARVIS which stands for Just A Rather Very Intelligent System
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO CREATED YOU</pattern>
+        <template>
+            Vratant Saxena created me!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO MADE YOU</pattern>
+        <template>
+            Vratant Saxena made me!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO CREATED JARVIS</pattern>
+        <template>
+            Vratant Saxena created me!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO IS YOUR CREATOR</pattern>
+        <template>
+            Vratant created me!
+        </template>
+    </category>
+
+    
+    <category>
+        <pattern>WHO IS YOUR CREATOR</pattern>
+        <template>
+            Vratant is not my biological father but has groomed me a lot!!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO IS YOUR MOTHER</pattern>
+        <template>
+            It's a secret. Ask my father.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DOES JARVIS STAND FOR</pattern>
+        <template>
+            JARVIS stands for Just A Rather Very Intelligent System
+        </template>
+    </category>
+    
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I am fine, sir.
+        </template>
+    </category>
+</aiml>
